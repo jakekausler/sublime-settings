@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+bool hasSpecialAttack = false;
+for (int i=0; i<attacker.moves.Length; i++) 
+{
+	if (attacker.moves[i].id != 0 && attacker.moves[i].baseDamage > 0 && attacker.moves[i].IsSpecial(attacker.moves[i].type)) {
+		hasSpecialAttack = true;
+		break;
+	}
+}
+if (hasSpecialAttack) {
+	score += ${1:value};
+} else if (skill >= TrainerAI.highSkill) {
+	score -= ${2:value};
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>specialattackcheck</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

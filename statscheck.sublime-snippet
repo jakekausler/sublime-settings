@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+if (${1:conditionbody}) {
+	score -= ${2:value};
+} else {
+	${3:elsebody}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>statscheck</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

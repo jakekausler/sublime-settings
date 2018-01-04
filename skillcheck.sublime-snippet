@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+if (skill >= TrainerAI.${1:level}) {
+	${2:body}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>skillcheck</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

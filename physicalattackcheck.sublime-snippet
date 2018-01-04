@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+bool hasPhysicalAttack = false;
+for (int i=0; i<attacker.moves.Length; i++) 
+{
+	if (attacker.moves[i].id != 0 && attacker.moves[i].baseDamage > 0 && attacker.moves[i].IsPhysical(attacker.moves[i].type)) {
+		hasPhysicalAttack = true;
+		break;
+	}
+}
+if (hasPhysicalAttack) {
+	score += ${1:value};
+} else if (skill >= TrainerAI.highSkill) {
+	score -= ${2:value};
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>physicalattackcheck</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+int[] stats = new int[7]{Stats.ATTACK, Stats.DEFENSE, Stats.SPEED, Stats.SPATK, Stats.SPDEF, Stats.ACCURACY, Stats.EVASION};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>statsarray</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

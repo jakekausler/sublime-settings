@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Advanced CSV",
+		"All Autocomplete",
+		"Anaconda",
+		"BracketHighlighter",
+		"C# Snippets",
+		"Emmet",
+		"Git",
+		"Package Control",
+		"SideBarEnhancements",
+		"Sublime Text 3 Snippets",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pyflakes",
+		"Unity3D Snippets and Completes"
+	]
+}

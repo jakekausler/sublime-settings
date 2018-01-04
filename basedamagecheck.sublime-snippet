@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+if (move.baseDamage == 0) {
+	${1:body}
+} else {
+	${2:elsebody}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>basedamagecheck</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
